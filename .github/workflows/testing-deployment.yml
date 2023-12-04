@@ -8,7 +8,7 @@ run-name: ${{github.actor}} initiated the workflow - Deploy To Testing
 on:
   pull_request:
     branches:
-      - main
+      - test
   workflow_dispatch:
 
 # what to do once the workflow is triggered
