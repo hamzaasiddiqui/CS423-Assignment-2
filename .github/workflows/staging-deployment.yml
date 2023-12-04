@@ -70,7 +70,7 @@ jobs:
           script: |
             npm install
             sudo npm install -g pm2
-            pm2 start npm --start
+            pm2 start index.js
 
       - name: Notify on success/failure
         if: always()
